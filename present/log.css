@@ -1,0 +1,70 @@
+body{
+    background:wheat;
+    height: 100vh;
+    background-size: cover;
+    background-position:center ;
+}
+
+.login-page{
+    width: 360px;
+    padding:10% 0 0;
+    margin: auto;
+}
+.form{
+    position:relative;
+    z-index: 1;
+    background:#2f3640 ;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.form input{
+    font-family:sans-serif;
+    outline: 1;
+    background: white
+    width:100%;
+    border:0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+.form button{
+    font-family:sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background:wheat;
+    width:100%;
+    border: 0;
+    padding: 15px;
+    color:#2f3640;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.form button:hover,.form button:active{
+    background:  rgb(73, 235, 41);
+}
+.form .message{
+margin:15px 0 0;
+color:white ;
+font-size: 20px;
+}
+.form .message a{
+   color:wheat;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.form .register-form{
+    display: none;
+}
+.login-form a{
+    color:#2f3640;
+}
+.register-form a{
+    color: #2f3640;
+}
